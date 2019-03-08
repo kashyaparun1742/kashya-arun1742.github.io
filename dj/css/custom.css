@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	color:#6d6e71;
+	font-size:14px;
+}
+strong{ color:#4b4f61}
+
+
+
+
+.km-bg-primary , km-blue-color{ color:#007fbd;}
+.km-bg-secondary{ color:#868e96;}
+.km-bg-success{ color:#28a745;}
+.km-bg-danger{ color:#dc3545;}
+.km-bg-warning{ color:#007fbd;}
+
+/* ---- heading-title ----*/
+
+.heading{ 
+	font-size:28px; 
+	color:#37474f; 
+	padding-bottom:15px; 
+	margin-bottom:20px; 
+	margin-top:10px;
+} 
+.heading i{ color:#37474f;}
+
+
+
+/* ---- title ----*/
+.title{ 
+	font-size:16px; 
+	color:#37474f; 
+	border-bottom:1px solid #e8eaea; 
+	line-height:40px;
+	display:block;
+}
+.title span{ 
+	display:inline-block; 
+	border-bottom:1px solid #007fbd;
+	font-weight:bold;
+}
+
+/* ---- btn-rouund  ----*/
+
+.km-btn-round-md{ height:32px; line-height:32px; font-size:14px;} 
+.km-btn-round-lg{ height:44px; line-height:44px; font-size:18px;} 
+.km-btn-round{
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px; 
+	display:inline-block;
+	color:#fff;
+	background:#017ebe;
+	padding-left:15px;
+	padding-right:15px;
+	border:1px solid #017ebe;
+}
+.km-btn-round-block{ display:block;}
+.km-btn-round:focus,
+.km-btn-round:hover,
+.km-btn-round.active{
+	background:#fff;
+	border:1px solid #017ebe;
+	color:#017ebe;
+}
+
+
+/* ---- button-default ----*/
+
+.km-btn-md{ height:38px; line-height:38px; font-size:14px; padding:0 15px;} 
+.km-btn-lg{ height:50px; line-height:50px; font-size:18px; padding:0 15px;} 
+.km-btn{ 
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px; 
+	display:inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	border:1px solid #017ebe;
+}
+
+.km-btn i{ color:#017ebe;}
+.km-btn:focus, 
+.km-btn:hover, 
+.km-btn.current, 
+.km-btn.active{ background:#017ebe; color:#fff;}
+.km-btn:focus i, 
+.km-btn:hover i, 
+.km-btn.current i,
+.km-btn.active i{ color:#fff;}
+
+/* ---- dropdown-toggle button ----*/
+
+.km-dd-btn-md{ height:38px; line-height:8px; font-size:14px;} 
+.km-dd-btn-lg{ height:50px; line-height:20px; font-size:18px;} 
+.km-dd-btn{
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px; 
+	background:#fff;
+	border:1px solid #017ebe;
+	color:#017ebe;
+}
+/* ---- input-field ----*/
+
+.md-input, 
+.md-selectore, 
+.md-textarea{
+	background:#fff; 
+	border:1px solid #dadada;
+	height:44px;
+	width:100%;
+	float:left;
+	padding:0 10px;
+	color:#5f6162;
+	margin-bottom:10px;
+}
+.md-textarea{
+	height:110px;
+	padding:10px;
+}
+
+
+.km-radio-btn, 
+.km-input-btn{
+	background:#017ebe; 
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px; 
+	border:1px solid #017ebe;
+	display:inline-block;
+}
+.km-radio-btn-block{
+	display:block
+}
+.km-input-btn{ width:100%; float:left; height:50px;}
+
+.km-radio-btn:hover, 
+.km-input-btn:hover,
+.km-radio-btn:focus, 
+.km-input-btn:focus,
+.km-radio-btn.current, 
+.km-input-btn.current{
+	background:#fff;
+	border-color:#017ebe;
+	color:#017ebe;
+}
+
+
+/* ---- km-img-box  ----*/
+
+
+.km-img-box img, 
+.km-img-box-xl img, 
+.km-img-box-lg img,
+.km-img-box-md img, 
+.km-img-box-sm img{
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.km-img-box-xxxl img{ width:130px; height:130px}
+.km-img-box-xxl img{ width:100px; height:100px}
+.km-img-box-xl img{ width:85px; height:85px}
+.km-img-box-lg img{ width:55px; height:55px}
+.km-img-box-md img{ width:45px; height:45px}
+.km-img-box-sm img{ width:35px; height:35px}
+
+/* ---- km-cover ----*/
+.km-cover {
+    height: 270px;
+    overflow: hidden;
+}
+.km-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.km-cover-sm{ height:70px;}
+.km-cover-md{ height:170px;}
+.km-cover-xxl{ height:370px;}
+
+
+.km-profle-default{ 
+	width:100px;
+    height: 100px;
+    overflow: hidden;
+	margin:0 auto;
+}
+.km-profle-default img{ 
+	border-radius:50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.km-profle-sm{ width:70px; height:70px;}
+.km-profle-lg{ width:130px; height:130px;}
+.km-profle-xxl{ width:170px; height:170px;}
+
+/* ---- km-div-round ----*/
+.km-div-round{
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+/* ---- km-card ----*/
+
+.km-card{
+	border:1px solid #e8eaea;
+	background:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px; 
+	width:100%;
+	float:left;
+	padding:15px;
+	margin-bottom:20px;
+}
+
+.km-card-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.km-card-img-box {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    height: 217px;
+    overflow: hidden;
+}
+
+h2.profile-name{ font-size:32px; color:#007fbd;}
+h3.profile-name{ font-size:28px; color:#007fbd;}
+h4.profile-name{ font-size:18px; color:#007fbd;}
+
+strong.profile-title{ font-size:16px; color:#3b649f;}
+
+/*------km-icon-------*/
+.km-top-icon {
+    position: absolute;
+    right: 21px;
+    top: 5px;
+    background: rgba(0,0,0,0.3) ;
+    line-height: 44px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+	color:#fff;
+}
+
+/*------km-radio-button -------*/
+
+.km-group-btn .gr-btn{
+    width: 100%;
+    height: 48px;
+    line-height: 33px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #007fbd;
+    background-color: #fff;
+    border-color: #007fbd;
+}
+.km-group-btn li{width: 50%; float: left;}
+.km-group-btn .gr-btn.active, .km-group-btn .gr-btn:focus{
+    color: #fff;
+    background-color: #007fbd !important;
+    border-color: #007fbd;
+}
+.km-group-btn li:first-child .gr-btn{
+    -webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+.km-group-btn li:last-child .gr-btn{
+    -webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+
+/*------km-css-------*/
+
+.km-shadow{ box-shadow: 10px 10px 5px #888888;}
+.km-outline{border:1px solid #017ebe; background:none; color:#007fbd;}
+
+
+/* ---- padding  ----*/
+
+.km-pd-top{ padding-top:15px;}
+.km-pd-bottom{ padding-bottom:15px;}
+.km-pd-left{ padding-left:15px;}
+.km-pd-right{ padding-right:15px;}
+
+.km-pd-top-none{ margin-top:0 !important;}
+.km-pd-bottom-none{ margin-bottom:0 !important;}
+.km-pd-left-none{ margin-left:0 !important;}
+.km-pd-right-none{ margin-right:0 !important;}
+
+/* ---- margin  ----*/
+
+.km-mg-top{ margin-top:15px;}
+.km-mg-bottom{ margin-bottom:15px;}
+.km-mg-left{ margin-left:15px;}
+.km-mg-right{ margin-right:15px;}
+
+.km-mg-top-none{ margin-top:0 !important;}
+.km-mg-bottom-none{ margin-bottom:0 !important;}
+.km-mg-left-none{ margin-left:0 !important;}
+.km-mg-right-none{ margin-right:0 !important;}
+
+
+/* ---- km-border  ----*/
+.km-border-top{border-top:1px solid #e8eaea; }
+.km-border-bottom{ border-bottom:1px solid #e8eaea; }
+.km-border-left{ border-left:1px solid #e8eaea; }
+.km-border-right{ border-right:1px solid #e8eaea; }
+/* ---- km-block  ----*/
+
+.km-block{ display:block;}
+.km-inline-block{ display:inline-block;}
+
+
+/* ---- km-full-width  ----*/
+.km-full-width{ width:100%; float:left} 
+
+
+
