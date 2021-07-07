@@ -133,7 +133,7 @@ section > .container{padding-bottom:80px;}
 #about a.button:hover{background-position:left bottom !important;}
 #skills{padding-top:30px;}
 #skills:before{background-image:url(../images/bg_moon.jpg), url(../images/bg_stars.jpg);background-position:right bottom, right bottom;background-repeat:no-repeat, repeat;background-size:contain, auto;content:"";opacity:0.8;top:0;left:0;bottom:0;right:0;position:absolute;z-index:-1;}
-#skills .hs_skill_title strong{display:block;font-size:28px;padding-top:10px;padding-bottom:30px;}
+#skills .hs_skill_title strong{display:block;font-size:34px;padding-top:10px;padding-bottom:30px;}
 #skills .space-rocket, #skills .rocketman, #skills .satellite{background:url(../images/bg_astro.png) no-repeat;position:absolute;float:left;}
 #skills .space-rocket{background-position:left top;z-index:11;width:144px;height:141px;right:18px;bottom:210px;-webkit-animation-name:Floatingx;-webkit-animation-duration:3s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-moz-animation-name:Floating;-moz-animation-duration:3s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease-in-out;}
 #skills .rocketman{background-position:right top;width:86px;height:116px;left:0;top:40%;animation-duration:8s;animation-name:cloud;animation-iteration-count:infinite;animation-timing-function:ease-out;-webkit-animation-duration:8s;-webkit-animation-name:cloud;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-out;-moz-animation-duration:8s;-moz-animation-name:cloud;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease-out;-o-animation-duration:8s;-o-animation-name:cloud;-o-animation-iteration-count:infinite;-o-animation-timing-function:ease-out;-ms-animation-duration:8s;-ms-animation-name:cloud;-ms-animation-iteration-count:infinite;-ms-animation-timing-function:ease-out;}
@@ -144,6 +144,7 @@ section > .container{padding-bottom:80px;}
 .prog-contain{width:220px;height:220px;margin:0 auto;background:url(../images/skill_bg.png) no-repeat}
 .skill_1>.percent{position:absolute;font-size:44px;text-align:center;background:url(../images/skill_text_bg.png) no-repeat;top:32px;right:-32px;width:150px;height:150px;padding:0}
 .skill_1>.percent>p{margin:57px 0 0 7px}
+.percent p{ font-size: 40px; font-weight: bold;}
 .skill_1>#slice{position:absolute;width:1em;height:1em;clip:rect(0, 1em, 1em, .5em)}
 .skill_1>#slice.gt50{clip:rect(auto, auto, auto, auto)}
 .skill_1>#slice>.pie{border:35px solid #5f3b13;position:absolute;width:215px;height:215px;clip:rect(0, .5em, 1em, 0);-moz-border-radius:.5em;-webkit-border-radius:.5em;border-radius:.5em;margin-top:1px;margin-left:1px}
