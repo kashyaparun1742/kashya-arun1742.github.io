@@ -144,7 +144,7 @@ section > .container{padding-bottom:80px;}
 .prog-contain{width:220px;height:220px;margin:0 auto;background:url(../images/skill_bg.png) no-repeat}
 .skill_1>.percent{position:absolute;font-size:44px;text-align:center;background:url(../images/skill_text_bg.png) no-repeat;top:32px;right:-32px;width:150px;height:150px;padding:0}
 .skill_1>.percent>p{margin:57px 0 0 7px}
-.percent p{ font-size: 40px; font-weight: bold;}
+.percent p, .percent2 p, .percent3 p, .percent4 p{ font-size: 40px; font-weight: bold;}
 .skill_1>#slice{position:absolute;width:1em;height:1em;clip:rect(0, 1em, 1em, .5em)}
 .skill_1>#slice.gt50{clip:rect(auto, auto, auto, auto)}
 .skill_1>#slice>.pie{border:35px solid #5f3b13;position:absolute;width:215px;height:215px;clip:rect(0, .5em, 1em, 0);-moz-border-radius:.5em;-webkit-border-radius:.5em;border-radius:.5em;margin-top:1px;margin-left:1px}
